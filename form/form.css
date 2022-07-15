@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Charm&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Myriad Pro", Arial, Helvetica, sans-serif !important;
+
+}
+
+.mainform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+
+.mainform img {
+    z-index: -1;
+}
+
+.mainpara {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mainpara p {
+    margin-left: 51px;
+    margin-right: 51px;
+    font-size: 14px;
+    color: #666666;
+
+
+}
+
+.form {
+    margin-left: 51px;
+    margin-top: 14px;
+    margin-right: 51px;
+}
+
+.form p {
+    color: #1b1b1b;
+    font-size: 14px;
+    margin-bottom: 14px;
+
+}
+
+.form .int {
+    display: flex;
+    width: 50%;
+    padding: 6px;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 30%;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    border-color: gainsboro;
+
+
+
+}
+
+.int:focus {
+    outline: none;
+}
+
+
+.formp {
+
+
+    color: rgb(37, 37, 37);
+    font-size: 14px;
+}
+
+.formspan {
+
+    color: rgb(255, 34, 34);
+    font-size: 18px;
+}
+
+.dd {
+
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 30%;
+    border-radius: 5px;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    color: #666666;
+    width: 52%;
+}
+
+.hh {
+    color: #666666;
+
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 30%;
+
+}
+
+
+
+.verry {
+    display: flex;
+    padding: 6px;
+    display: inline;
+
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 18%;
+    border-radius: 5px;
+    /* background-color: #EEE; */
+    border: 1px solid #CCC;
+    color: #666666;
+    width: 20%;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 7px;
+
+
+
+
+
+}
+
+.vv {
+    display: block;
+    padding-bottom: 12px;
+}
+
+.vspan {
+    font-size: larger;
+    color: aliceblue;
+    padding: 5px 21px;
+    margin-left: 25px;
+    background-color: rgb(20, 187, 20);
+}
+
+.gig {
+    position: relative;
+    top: 12px;
+    width: 38px;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+/* -******************* */
+
+@media only screen and (max-device-width: 640px),
+only screen and (max-device-width: 667px),
+only screen and (max-width: 480px) {
+    .gg {
+        background-color: #000000;
+    }
+
+
+    .boxfoodmm {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .mainformMid {
+        margin-bottom: 10px;
+
+    }
+
+    .mainformMid img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .mainparaMidea p {
+        margin-left: 10px;
+        margin-right: 10px;
+
+
+    }
+
+    .form {
+        margin: 0%;
+        position: relative;
+        top: -50px;
+
+
+    }
+
+
+    .form span {
+        display: block;
+        margin: 0px;
+    }
+
+    .form .formp {
+        text-align: left;
+        font-size: larger;
+        margin-left: 25px;
+    }
+
+    .paramid {
+        visibility: hidden;
+    }
+
+    .formspan {
+        visibility: hidden;
+    }
+
+    .form .int {
+        display: flex;
+        width: 80%;
+        margin: auto 25px;
+    }   .form .dd {
+        display: flex;
+        width: 80%;
+        margin: auto 25px;
+    }
+    .form .hhmidea{
+
+        margin-top: -25px;
+        margin-left:32px;
+        margin-right: 32px;
+        color: #000000;
+
+    }
+
+    .verymm ,.vspan{
+        /* background: transparent; */
+        width:40%;
+      position: relative;
+      top: -20px;
+        margin-left:30px;
+
+    }
+    
+
+
+}

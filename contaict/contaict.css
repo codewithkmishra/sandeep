@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Dancing+Script:wght@600&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+
+}
+body {
+    font-family: "Myriad Pro", Arial, Helvetica, sans-serif !important;
+
+    background-color: rgb(255, 255, 255);
+}
+
+
+.mainhaid {
+    color: #666666;
+    font-weight:normal;
+    font-size: 18;
+    margin-left: 41px;
+    /* margin-right: 41px; */
+    margin-top: 14px;
+    padding-bottom: 2px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid rgb(189, 189, 189);
+
+}
+.mainhaid h1{
+    font-family: 'Dancing Script', 'cursive';
+    color: #be4b50;
+    text-rendering: optimizelegibility;
+    font-size: 38px;
+    margin-right: 41px;
+    padding-bottom:1px;
+    margin-bottom: 15px;
+
+}
+.regimg{
+
+    padding-top:20px ;
+    padding-bottom:20px ;
+}
+.blue{
+    padding-bottom:20px ;
+
+    color:#008dd4 ;
+}
+
+.humble p{
+    padding-bottom:36px ;
+}
+.Invitation{
+    border-bottom:0px;
+}

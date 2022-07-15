@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Dancing+Script:wght@600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Myriad Pro", Arial, Helvetica, sans-serif !important;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.mainvideo {
+    z-index: -1;
+
+    margin: 25px auto;
+    width: 90%;
+    padding-bottom: 15px;
+    min-height: 55%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 3px solid rgb(207, 207, 207);
+}
+
+.video {
+    width: 60%;
+    height: 360px;
+    /* background-color: red; */
+}
+
+.video img {
+    padding-top: 3px;
+}
+
+.downlode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 45px;
+    width: 40%;
+    height: 360px;
+    /* background-color: green; */
+}
+
+.downlode b {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 52px;
+    top: 20px;
+}
+
+.img img {
+    margin-left: 15px;
+    padding: 6px;
+}
+
+
+/* *********************** */
+.person {
+    font-family: 'Dancing Script', 'cursive';
+    color: #be4b50;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+    font-size: 36;
+    margin-left: 41px;
+    /* margin-right: 41px; */
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    /* border-bottom: 2px solid rgb(189, 189, 189); */
+
+}
+
+.hd {
+    display: flex;
+    flex-direction: row;
+}
+
+.hd img {
+    width: auto;
+    height: 42px;
+    position: relative;
+    /* left: -5px; */
+}
+
+/* ******************************** */
+.imgrid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 2.5rem;
+    margin-right: 51px;
+    margin-left: 51px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid rgb(207, 207, 207);
+
+
+}
+
+.item {
+    /* border: 2px solid black; */
+    /* padding: 15px 5px; */
+    box-shadow: 5px 10px #ece9e9;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.imgg {
+    background-color: #be4b50;
+
+}
+
+.imgg img {
+    width: 250px;
+    height: 150px;
+
+}
+
+.parad {
+    padding-top: 6px;
+    padding-left: 3px;
+}
+
+.parad span {
+    color: #252525;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.parad p {
+    color: #666666;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.imgh {
+    padding-top: 12px;
+
+}
+
+.dd span {
+    align-items:left;
+    position: relative;
+    /* text-align: right; */
+    top: -12px;
+    font-weight:normal;
+    left: 240%;
+    font-size: 15px;
+    color: #181818;
+}
+
+/* *************************************** */
+.bookgrid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-right: 51px;
+    margin-left: 51px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid rgb(207, 207, 207);
+    padding-bottom: 20px;
+
+}
+
+.bookimg {}
+
+.bookimg img {
+    position: relative;
+    top: -55px;
+
+}
+
+.discripstion {
+    color: #666666
+        /* background-color: #be4b50; */
+}
+
+.discripstion button {
+
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #565656;
+    color: #fffd00;
+    padding: 10px 20px;
+}
+
+.downlodbook {
+
+    margin-top: 25px;
+}
+
+.downlodbook img {
+    padding-right: 5px;
+}
+
+.sbook img {
+    position: relative;
+    top: 0px;
+    padding-left:6px;
+    width: 506px;
+    height: 451px;
+
+
+}
+.tbook img {
+    position: relative;
+    top: 0px;
+    padding-left:6px;
+    width:340px;
+    height: auto;
+
+}
+.onlyimg{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap:.6rem;
+    margin-right: 51px;
+    margin-left: 51px;
+    /* margin-bottom: 25px; */
+    border-bottom: 3px solid rgb(207, 207, 207);
+    /* padding-bottom: 20px; */
+}
+
+
+.motiimg {
+    height:240px;
+    /* background-color: #be4b50; */
+}
+
+.map p{
+    text-align:left;
+    /* left: 240%; */
+    font-size:12px;
+    color: #666666;
+
+}
+.map img{
+    width: 219px;
+}
+.kl p{
+    position: relative;
+    left:120px;
+    font-size:16px;
+font-weight: bolder;
+    color: #666666;
+
+
+}
+

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Dancing+Script:wght@600&display=swap');
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Myriad Pro", Arial, Helvetica, sans-serif !important;
+}
+
+.img {
+    overflow: hidden;
+    z-index: -1;
+
+    width: 90%;
+    height: 450px;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.img img {
+    position: absolute;
+    width: 100%;
+    transition: all 0.2;
+
+    height: 80%;
+
+}
+
+#btnp {
+    position: relative;
+    bottom: 0px;
+}
+
+.svg {
+    background-color: transparent;
+    width: 20px;
+    height: 43px;
+    /* border-radius: 100%; */
+    position: relative;
+    top: 166px;
+    fill: rgb(255, 255, 255);
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    transition: all .5s ease-out;
+}
+
+.svgl {
+    left: 0px;
+    border-left: 0px;
+}
+
+.svgr {
+    left: 92.6%;
+    border-right: 0px;
+}
+
+.svg:hover {
+
+    background-color: rgb(51, 51, 51);
+    /* opacity: 0.5; */
+    /* z-index: -1; */
+}
+
+
+/* *********The person********** */
+.Theperson {
+    top: -75px;
+    position: relative;
+
+}
+
+.person {
+    font-family: 'Dancing Script', 'cursive';
+    color: #be4b50;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+    font-size: 36;
+    margin-left: 41px;
+    margin-right: 41px;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(189, 189, 189);
+
+}
+
+
+/* ************para ************* */
+
+.personpara {
+    text-align: justify;
+
+    color: #666666;
+    font-size: 15.5px;
+    margin-left: 41px;
+    margin-right: 41px;
+}
+
+.personpara span {
+    color: #1b8ec8;
+    font-weight: normal;
+    text-align: left;
+    font-weight: 18px;
+
+
+}
+
+.personpara li {
+    font-size: 18px;
+    margin-left: 45px;
+    margin-right: 41px;
+    color: #666666;
+}
+
+@media only screen and (max-device-width: 640px),
+only screen and (max-device-width: 667px),
+only screen and (max-width: 480px) {
+
+    .maainimg{
+        width: 100%;
+        height:290px;
+        margin-bottom: 20px;
+    }
+
+    .svgm {
+       
+        top: 80px;
+    }
+    .svgrm{
+        left:85%;
+    }
+    
+
+}
